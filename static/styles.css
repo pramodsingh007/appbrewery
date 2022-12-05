@@ -280,6 +280,7 @@ strong{
         display: flex;
         margin-left:auto ;
         margin-right:auto ;
+        width: 65vw;
     }
     .angela-pic{
         width: 75vw;
