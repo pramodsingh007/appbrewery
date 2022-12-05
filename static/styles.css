@@ -211,7 +211,7 @@ strong{
     text-align: center;
 }
 .testimonials-card{
-    width: 17vw;
+    width: 20vw;
     height: auto;
     padding: 30px;
     margin: 30px;
@@ -239,6 +239,17 @@ strong{
 .testimonials-section{
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width:950px){
+    .testimonials-section{
+        display: grid;
+        
+    } 
+    .testimonials-card{
+        width: 55vw;
+        margin: 10px 0;
+    }
 }
 
 
